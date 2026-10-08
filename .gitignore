@@ -1,0 +1,61 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/venv/
+backend/.venv/
+venv/
+env/
+ENV/
+
+# Build outputs & cache
+dist/
+frontend/dist/
+build/
+frontend/build/
+.vercel/
+*.egg-info/
+.eggs/
+
+# Environment and Secrets
+.env
+.env.local
+.env.*.local
+frontend/.env
+frontend/.env.local
+backend/.env
+
+# Databases & User Uploads
+*.db
+*.db-shm
+*.db-wal
+backend/*.db
+backend/*.db-shm
+backend/*.db-wal
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+backend/__pycache__/
+backend/.pytest_cache/
+
+# Test output directories
+test-results/
+playwright-report/
+frontend/test-results/
+frontend/playwright-report/
+
+# IDE, OS & Assistant metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.agent/
+.trae/

@@ -1,0 +1,11 @@
+{
+  "name": "civictrack-ai-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CivicTrack AI — Smart Civic Issue Reporting & Tracking Platform",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "cd frontend && npm install && npm run build",
+    "vercel-build": "cd frontend && npm install && npm run build"
+  }
+}
